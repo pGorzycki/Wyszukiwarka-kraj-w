@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	font-family: tahoma;
+}
+body {
+	background: url(http://s3.amazonaws.com/libapps/accounts/114989/images/colorful-1974699_1920.png);
+	background-attachment: fixed;
+	position: cover;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	display: table;
+}
+ul {
+	list-style-type: none;
+	background: rgba(219, 219, 219, 0.9);
+	padding: 0;
+	width: 700px;
+	border: 0px 1px 1px 1px solid grey;
+}
+li {
+	border-top: 1px solid grey;
+	padding: 10px;
+}
+img {
+	padding-top: 10px;
+}
+.searcher {
+	text-shadow: 1px 1px 1px black;
+	background: rgba(219, 219, 219, 0.9);
+	border-radius: 6px;
+	padding: 10px;
+	border: 1px solid grey;
+}
+button, input {
+	padding: 5px;
+	font-weight: bold;
+}
+h3 {
+	padding-top: 25px;
+}
